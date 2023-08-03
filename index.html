@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="calculator">
+            <div class="display">
+                <div class="content">
+                    <div class="input"></div>
+                    <div class="output"></div>
+                </div>
+            </div>
+        <div class="button-layer">
+            <div class="buttons">
+                <input type="button" id="reset" data-key="clear" class="key action" value="AC">
+                <input type="button" id="brackets" data-key="brackets" class="key action" value="( )">
+                <input type="button" id="percent" data-key="%" class="key action" value="%">
+                <input type="button" id="operator" data-key="/" class="key operator" value="÷">
+            </div>
+            <div class="button">
+                <input type="button" data-key="7" class="key" value="7">
+                <input type="button" data-key="8" class="key" value="8">
+                <input type="button" data-key="9" class="key" value="9">
+                <input type="button" data-key="*" id="operators" class="key operator" value="x">
+            </div>
+            <div class="button">
+                <input type="button" data-key="4" class="key" value="4">
+                <input type="button" data-key="5" class="key" value="5">
+                <input type="button" data-key="6" class="key" value="6">
+                <input type="button" data-key="-" id="operators" class="key operator" value="-">
+            </div>
+            <div class="button">
+                <input type="button" data-key="1" class="key" value="1">
+                <input type="button" data-key="2" class="key" value="2">
+                <input type="button" data-key="3" class="key" value="3">
+                <input type="button" data-key="+" id="operators" class="key operator" value="+">
+            </div>
+            <div class="button">
+                <input type="button" data-key="backspace" id="return" class="key action" value="<">
+                <input type="button" data-key="0" class="key" value="0">
+                <input type="button" data-key="." id="operators"  class="key operator" value=".">
+                <input type="button" data-key="=" id="operators" class="key operator" value="=">
+            </div>
+        </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
